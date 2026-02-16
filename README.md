@@ -20,6 +20,10 @@ Deserialize → User object
    ↓
 Display data
 '''
+
+
+Structured memory object  →  Structured text
+Structured text           →  Structured memory object
 Credits:
 
 Task developed by Alessa Melo
