@@ -20,3 +20,8 @@ Deserialize → User object
    ↓
 Display data
 '''
+Credits:
+
+Task developed by Alessa Melo
+
+Class and guideliness: Gabriela Cajamarca
