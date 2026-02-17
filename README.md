@@ -107,6 +107,19 @@ This project demonstrates understanding of:
 * Passwords are stored in plain text (for educational purposes only)
 * Uses SharedPreferences instead of a database
 
+## 📸 Screenshots
+
+### Main Screen
+![Main Screen](images/main.png)
+
+### Login Screen
+![Login Screen](images/login.png)
+
+### Signin Screen
+![Login Screen](images/signin.png)
+
+### Timer Screen
+![Timer Screen](images/timer.png)
 
 ##  Credits
 
