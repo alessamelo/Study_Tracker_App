@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background_login"
+    >
+
+    <!-- STUDY -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@color/blue">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvStudyBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pixel_font"
+                android:gravity="center"
+                android:letterSpacing="0.1"
+                android:text="@string/log_in"
+                android:textColor="@color/pink"
+                android:textSize="50sp"
+                android:translationX="2dp"
+                android:translationY="2dp" />
+
+            <TextView
+                android:id="@+id/tvStudyFront"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pixel_font"
+                android:gravity="center"
+                android:letterSpacing="0.09"
+                android:text="@string/log_in"
+                android:textColor="@color/white"
+                android:textSize="50sp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <!-- FORM CONTAINER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="32dp">
+
+        <!-- USERNAME -->
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/pixel_font"
+            android:padding="12dp"
+            android:background="@color/pink"/>
+
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/pixel_font"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/pink"/>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/continuar"
+            android:textSize="18sp"
+            android:fontFamily="@font/pixel_font"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/purple"
+            android:textColor="@color/white"/>
+
+        <!-- Return BUTTON -->
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/regre"
+            android:textSize="18sp"
+            android:fontFamily="@font/pixel_font"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

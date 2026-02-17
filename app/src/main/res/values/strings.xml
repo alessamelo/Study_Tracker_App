@@ -1,0 +1,13 @@
+<resources>
+    <string name="study">STUDY </string>\
+    <string name="session">Session</string>
+    <string name="tracker">Tracker</string>
+    <string name="app_name">Study with Ale</string>
+    <string name="sign_in"> Sign In</string>
+    <string name="log_in"> Log In</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="regre">RETURN</string>
+    <string name="continuar"> CONTINUE </string>
+    <string name="timer"> Set timer:</string>
+</resources>

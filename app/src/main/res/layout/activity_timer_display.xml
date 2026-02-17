@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background_main">
+
+    <!-- STUDY -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@drawable/box">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etSetTimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pixel_font"
+                android:gravity="center"
+                android:letterSpacing="0.09"
+                android:hint="@string/timer"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:textSize="50sp"
+                />
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/btnStartTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/pixel_font"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="70sp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/pixel_font"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/regre"
+        android:textSize="20sp"
+        android:fontFamily="@font/pixel_font"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

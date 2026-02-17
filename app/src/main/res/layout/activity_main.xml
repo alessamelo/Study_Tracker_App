@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background_main">
+
+    <!-- STUDY -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@drawable/box">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvStudyBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel_font"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:text="@string/study"
+            android:textColor="@color/pink"
+            android:textSize="50sp"
+            android:translationX="2dp"
+            android:translationY="2dp" />
+
+        <TextView
+            android:id="@+id/tvStudyFront"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel_font"
+            android:gravity="center"
+            android:letterSpacing="0.09"
+            android:text="@string/study"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+    </FrameLayout>
+
+    <!-- SESSION -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSessionBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel_font"
+            android:gravity="center"
+            android:letterSpacing="0.09"
+            android:text="@string/session"
+            android:textColor="@color/pink"
+            android:textSize="60sp"
+            android:translationX="2dp"
+            android:translationY="2dp" />
+
+        <TextView
+            android:id="@+id/tvSessionFront"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel_font"
+            android:gravity="center"
+            android:letterSpacing="0.09"
+            android:text="@string/session"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+    </FrameLayout>
+
+    <!-- TRACKER -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTrackerBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel_font"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:text="@string/tracker"
+            android:textColor="@color/pink"
+            android:textSize="70sp"
+            android:translationX="2dp"
+            android:translationY="2dp" />
+
+        <TextView
+            android:id="@+id/tvTrackerFront"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pixel_font"
+            android:gravity="center"
+            android:letterSpacing="0.09"
+            android:text="@string/tracker"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+    </FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/sign_in"
+        android:textSize="20sp"
+        android:fontFamily="@font/pixel_font"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/white"/>
+
+    <Button
+    android:id="@+id/log_in"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:text="@string/log_in"
+    android:textSize="20sp"
+    android:fontFamily="@font/pixel_font"
+    android:textAllCaps="false"
+    android:backgroundTint="@color/pink"
+    android:textColor="@color/white"/>
+
+</LinearLayout>
+
