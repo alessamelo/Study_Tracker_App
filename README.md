@@ -1,7 +1,3 @@
-Here is a clean, professional `README.md` version you can paste directly into your repository:
-
----
-
 #  Study Session Tracker App
 
 A Kotlin-based Android application developed in **Android Studio** featuring a pixel-art themed UI.
